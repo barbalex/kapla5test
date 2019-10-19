@@ -8,4 +8,10 @@ module.exports = {
   module: {
     rules: require('./webpack.rules'),
   },
+  resolve: {
+    modules: ['node_modules', 'tools'],
+    alias: {
+      'node-pre-gyp': 'node-pre-gyp-bypass',
+    },
+  },
 }

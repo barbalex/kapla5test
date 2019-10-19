@@ -15,4 +15,10 @@ module.exports = {
   module: {
     rules,
   },
+  resolve: {
+    modules: ['node_modules', 'tools'],
+    alias: {
+      'node-pre-gyp': 'node-pre-gyp-bypass',
+    },
+  },
 }
