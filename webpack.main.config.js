@@ -17,7 +17,7 @@ module.exports = {
     new CopyPlugin([
       {
         from: './node_modules/better-sqlite3/',
-        to: './out/node_modules/better-sqlite3/', // still under node_modules directory so it could find this module
+        to: './.webpack/renderer/node_modules/better-sqlite3', // still under node_modules directory so it could find this module
       },
     ]),
   ],
