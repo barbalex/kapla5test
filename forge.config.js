@@ -1,6 +1,10 @@
 process.versions.electron = process.env.npm_package_devDependencies_electron
 module.exports = {
-  packagerConfig: {},
+  packagerConfig: {
+    ignore: file => {
+      return false
+    },
+  },
   makers: [
     {
       name: '@electron-forge/maker-squirrel',

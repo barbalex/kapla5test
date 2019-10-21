@@ -28,7 +28,6 @@
 import React from 'react'
 import { render } from 'react-dom'
 import betterSqlite from 'better-sqlite3'
-import _ from 'lodash'
 //import sqlite from 'sqlite3'
 
 render(<div>hello world via react</div>, document.getElementById('root'))
