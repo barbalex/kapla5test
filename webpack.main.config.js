@@ -1,4 +1,4 @@
-const CopyPlugin = require('copy-webpack-plugin')
+//const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   /**
@@ -10,7 +10,7 @@ module.exports = {
   module: {
     rules: require('./webpack.rules'),
   },
-  externals: {
+  /*externals: {
     'better-sqlite3': 'commonjs better-sqlite3',
   },
   plugins: [
@@ -32,5 +32,5 @@ module.exports = {
     alias: {
       'node-pre-gyp': 'node-pre-gyp-bypass',
     },
-  },
+  },*/
 }
